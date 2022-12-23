@@ -1,0 +1,63 @@
+.post{
+    justify-content: center;
+    font-family: 'Humanistic';
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.post ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Humanistic';
+    gap: 1rem;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Humanistic';
+    font-size: 30px;
+}
+
+.headerContainer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.video{
+    margin: auto;
+}
+
+.smallP{
+    font-size: 15px;
+}
+
+.largeP{
+    font-size: 35px;
+}
+
+.sourceListSmall{
+    font-size: 20px;
+}
+
+.sourceListBig{
+    font-size: 35px;
+}
+
+.smallH1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Humanistic';
+}
+
+.largeH1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Humanistic';
+}

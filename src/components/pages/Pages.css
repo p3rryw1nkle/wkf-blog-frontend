@@ -1,0 +1,55 @@
+.humanistic-font {
+    font-family: "Humanistic";
+    font-kerning: auto;
+   }
+
+.loreHeader{
+    text-align: center;
+    font-family: 'Humanistic';
+    font-size: 20px;
+}
+
+.loreHeaderContainer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.smallP{
+    font-size: 15px;
+}
+
+.largeP{
+    font-size: 35px;
+}
+
+.smallH1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.largeH1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.smallH2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.largeH2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.border{
+    background-image: src/components/images/paperTexture;
+}
+
+.downloadLink{
+    font-size: 40px;
+}
