@@ -89,11 +89,18 @@ export default function Home() {
           <p className={resize ? "largeH2" : "smallH2"}>
             Tune In
           </p>
-          <Grid container item justifyContent="center" xs={12}>
-            <a href="https://www.instagram.com/itsperrywinkle/" target="_blank" rel="noreferrer noopener">
-              <GetImages name="instagram"  size={resize ? "150px" : "75px"}/>
-              {/* <img alt="instagram" width={resize ? "150px" : "75px"} height={resize ? "150px" : "75px"} src={instagram}/> */}
-            </a>
+          <Grid container item justifyContent="center" xs={12} spacing={5}>
+            <Grid item>
+              <a href="https://www.instagram.com/itsperrywinkle/" target="_blank" rel="noreferrer noopener">
+                <GetImages name="instagram"  size={resize ? "150px" : "75px"}/>
+                {/* <img alt="instagram" width={resize ? "150px" : "75px"} height={resize ? "150px" : "75px"} src={instagram}/> */}
+              </a>
+            </Grid>
+            <Grid item>
+              <a href="https://open.spotify.com/artist/5AYfjiSvcjUfbHPLiGTfrI" target="_blank" rel="noreferrer noopener">
+                <GetImages name="spotify_logo"  size={resize ? "150px" : "75px"}/>
+              </a>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>

@@ -1,10 +1,15 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import loading_symbol from "../components/images/loading_symbol.gif"
+// require('dotenv').config();
 
 export default function GetImages(props) {
     const [singleImage, setImage] = useState();
     const [isLoading, setLoading] = useState(true);
+    // const backend = process.env.backend
+    
+    // console.log(backend)
+
     // console.log(props.name)
 
     useEffect(() => {
