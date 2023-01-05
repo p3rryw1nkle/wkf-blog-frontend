@@ -1,22 +1,17 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import loading_symbol from "../components/images/loading_symbol.gif"
-// require('dotenv').config();
 
 export default function GetImages(props) {
     const [singleImage, setImage] = useState();
     const [isLoading, setLoading] = useState(true);
-    // const backend = process.env.backend
+    const backend = process.env.REACT_APP_BACKEND_URL
     
-    // console.log(backend)
-
-    // console.log(props.name)
 
     useEffect(() => {
         async function fetchData() {
         axios
-            // .get(`http://localhost:5000/images/${props.name}`)
-            .get(`https://wkf-backend.herokuapp.com/images/${props.name}`)
+            .get(`${backend}${props.name}`)
             .then((res) => {
                 setImage(res.data);
                 // console.log(`${props.name} image successfully retrieved`);
@@ -24,7 +19,7 @@ export default function GetImages(props) {
             })
         }
         fetchData()
-    }, [props.name])
+    }, [props.name, backend])
 
     if (isLoading) {
         return <img alt="loading..." src={loading_symbol} width="50px" height="50px"/>
