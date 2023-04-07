@@ -36,7 +36,9 @@ export default function Lore() {
             in order to create inner harmony.
           </p>
           <p className={resize ? "largeP" : "smallP"}>
-            Each archetype is channeled and embodied through several songs which explore different aspects of their respective archetype.
+            Each archetype is embodied through several songs which explore different aspects of their respective archetype.
+            Furthermore, the music is accompanied by visuals consisting of AI-generated animations and video compilations that mimick
+            dreaming and a state of "active imagination", whose symbolism Jung believed was essential in analyzing and understanding the archetypes. 
             The following is an explanation of the 'map' of the performance which may be used to better understand the show. It is followed by a list of each song of the performance and its lyrics.
           </p>
           <Grid item container xs={8} justifyContent="center" alignItems="center">
