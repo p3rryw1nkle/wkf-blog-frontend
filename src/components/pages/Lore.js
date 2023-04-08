@@ -33,51 +33,15 @@ export default function Lore() {
             of the collective uncsonscious, which can be thought of as an instincintual, biologically inherited, 
             “psychic system of a collective, universal, and impersonal nature which is identical in all individuals” (Jung). 
             Jung believed that the path toward individuation largely meant becoming aware of and integrating one's own archetypes 
-            in order to create inner harmony.
+            in order to create inner harmony. For more information regarding Jung's theories, visit the <a href="/Synopsis">Book Synopsis</a> page.
           </p>
           <p className={resize ? "largeP" : "smallP"}>
             Each archetype is embodied through several songs which explore different aspects of their respective archetype.
-            Furthermore, the music is accompanied by visuals consisting of AI-generated animations and video compilations that mimick
-            dreaming and a state of "active imagination", whose symbolism Jung believed was essential in analyzing and understanding the archetypes. 
-            The following is an explanation of the 'map' of the performance which may be used to better understand the show. It is followed by a list of each song of the performance and its lyrics.
+            Furthermore, the music is accompanied by <a href="https://docs.google.com/document/d/1f6hIF1NbuU5EjULjg2JmdMxr0-OPKv2UE-SWwys4DMs/edit">visuals</a> consisting of AI-generated animations and video compilations that mimick
+            dreaming and a state of "active imagination", whose symbolism Jung believed was a powerful tool in understanding the archetypes and the unconscious mind. 
+            The following is a list of each song in the performance and its lyrics. It is followed by an explanation of the 'map' of the performance used in the promotional material
+            which may be used to better understand the stucture of the show.
           </p>
-          <Grid item container xs={8} justifyContent="center" alignItems="center">
-            <GetImages name="performance_map" size="100%"/>
-            {/* <img alt="the map" width={resize ? "800px" : "300px"} height="100%" src={finalDraft}/> */}
-          </Grid>
-          <p className={resize ? "largeP" : "smallP"}>
-            The black circle/triangle symbol in the middle represents the psyche, with dark and light representing unconsciousness and consciousness respectively. 
-            Each point on the triangle/prism represents an archetype the performance exposes, the idea being that as more and more archetypes 
-            are made conscious, the more whole the psyche becomes. The prism depicted above the head gives a 3-dimensional perspective of the triangle, 
-            revealing more depth to the psyche and a 4th point/archetype, which alludes to the archetype of the syzygy, representing non-duality and the union of masculine/feminine consciousness.
-          </p>
-          <p className={resize ? "largeP" : "smallP"}>
-            Each act in the performance explores both the positive and negative aspects of each archetype, 
-            which is represented by the shading of the triangle. For example, while the Wizard archetype has the strengths of vision, 
-            reativity, and independence, it struggles 
-            with megalomania, social isolation, and manipulation. The perceived negative qualities of the Wizard are then flipped and turned 
-            into the strengths of the King, (i.e. courage, leadership, and ambition) 
-            within the next act. The show presents how the strengths and weaknesses of each archetype may be harmonized 
-            to create a more united, balanced psyche. 
-          </p>
-          <p className={resize ? "largeP" : "smallP"}>
-            As the performance progresses more of the unconscious is explored. This is represented by the counter-clockwise spiral, 
-            as “a leftward (counter clockwise) movement indicates towards the unconscious” As Jung observed in his studies of symbology. The spiral also traces the 
-            character development and metamorphosis of the Wizard into the Syzygy. Furthermore, layers of costume are removed with each act 
-            to reveal the next archetype concealed underneath, just as “individuation is to divest the self of false wrappings” (Jung).
-          </p>
-          <div style={{ backgroundImage: `url(${paperTexture})` }}>
-            <p className={resize ? "largeP" : "smallP"}>
-              Lastly, the black lines eminating from the prism and spiral represent the process of projection, the “unconscious, automatic 
-              process whereby a content that is unconscious to the subject transfers itself to an object, so that it seems to belong 
-              to that object” (Jung). Projection is how archetypes reveal themselves through creative expression, by transferring their unconscious
-              content onto the object that is being created (in this case, music), so that they may be recognized and made conscious–“Archetypes 
-              are already psychic processes that are unconscous, they are the symbolic expressions of the inner, unconscious drama of the 
-              psyche which becomes accessible to man’s consciousness by way of projection” (Jung). 
-              Ultimately, the goal of the performance is to provide an object for the audience to project onto and become aware of their 
-              own archetypes, hence “unlock your unconscious”.
-            </p>
-          </div>
           <Grid item container xs={12} lg={8} justifyContent="center">
           <ol className={resize ? "largeP" : "smallP"}>
             <li>
@@ -470,18 +434,15 @@ export default function Lore() {
                         Then I'm on my way <br/>
                         Becoming no one <br/>
                         <br/>
-                        Just at the cusp of the abyss <br/>
-                        Dreams of fortresses on sand <br/>
-                        Pull me away from heaven <br/>
-                        Still I hold on for as long as I can <br/>
+                        Sworn to a war with reality <br/>
+                        And dreams of fortresses on sand <br/>
+                        Inventing my own heaven <br/>
+                        Faking God for as long as I can <br/>
                         <br/>
                         Tethered to a simulation <br/>
                         Wired for virtual salvation <br/>
                         Cryptid, cursed fragmentation <br/>
                         Crying out 'assimilation' <br/>
-                        Grasping out for ghosts <br/>
-                        Ever so close <br/>
-                        Until it folds <br/>
                         (Supernova, supernova, supernova, supernova) <br/>
                         <br/>
                         In the great collapse <br/>
@@ -774,8 +735,6 @@ export default function Lore() {
                       Singing  <br/>
                       <br/>
                       Serendipity, Serendipity <br/>
-                      (And it's laughing at our time <br/>
-                      Cause still we never find) <br/>
                       <br/>
                       Summoning <br/>
                       Mystic bonds <br/>
@@ -784,12 +743,6 @@ export default function Lore() {
                       It must be <br/>
                       <br/>
                       Serendipity, Serendipity <br/>
-                      (Is our will truly our own? <br/>
-                      Truly our own? <br/>
-                      Truly our own? <br/>
-                      Truly our own?) <br/>
-                      <br/>
-                      So let the cards fall where they may <br/>
                     </p>
                   </Grid>
                 </AccordionDetails>
@@ -877,7 +830,44 @@ export default function Lore() {
               </Accordion>
             </li>
           </ol>
-          </Grid>
+        </Grid>
+        <Grid item container xs={8} justifyContent="center" alignItems="center">
+          <GetImages name="performance_map" size="100%"/>
+          {/* <img alt="the map" width={resize ? "800px" : "300px"} height="100%" src={finalDraft}/> */}
+        </Grid>
+        <p className={resize ? "largeP" : "smallP"}>
+          The black circle/triangle symbol in the middle represents the psyche, with dark and light representing unconsciousness and consciousness respectively. 
+          Each point on the triangle/prism represents an archetype the performance exposes, the idea being that as more and more archetypes 
+          are made conscious, the more whole the psyche becomes. The prism depicted above the head gives a 3-dimensional perspective of the triangle, 
+          revealing more depth to the psyche and a 4th point/archetype, which alludes to the archetype of the syzygy, representing non-duality and the union of masculine/feminine consciousness.
+        </p>
+        <p className={resize ? "largeP" : "smallP"}>
+          Each act in the performance explores both the positive and negative aspects of each archetype, 
+          which is represented by the shading of the triangle. For example, while the Wizard archetype has the strengths of vision, 
+          reativity, and independence, it struggles 
+          with megalomania, social isolation, and manipulation. The perceived negative qualities of the Wizard are then flipped and turned 
+          into the strengths of the King, (i.e. courage, leadership, and ambition) 
+          within the next act. The show presents how the strengths and weaknesses of each archetype may be harmonized 
+          to create a more united, balanced psyche. 
+        </p>
+        <p className={resize ? "largeP" : "smallP"}>
+          As the performance progresses more of the unconscious is explored. This is represented by the counter-clockwise spiral, 
+          as “a leftward (counter clockwise) movement indicates towards the unconscious” As Jung observed in his studies of symbology. The spiral also traces the 
+          character development and metamorphosis of the Wizard into the Syzygy. Furthermore, layers of costume are removed with each act 
+          to reveal the next archetype concealed underneath, just as “individuation is to divest the self of false wrappings” (Jung).
+        </p>
+        <div style={{ backgroundImage: `url(${paperTexture})` }}>
+          <p className={resize ? "largeP" : "smallP"}>
+            Lastly, the black lines eminating from the prism and spiral represent the process of projection, the “unconscious, automatic 
+            process whereby a content that is unconscious to the subject transfers itself to an object, so that it seems to belong 
+            to that object” (Jung). Projection is how archetypes reveal themselves through creative expression, by transferring their unconscious
+            content onto the object that is being created (in this case, music), so that they may be recognized and made conscious–“Archetypes 
+            are already psychic processes that are unconscous, they are the symbolic expressions of the inner, unconscious drama of the 
+            psyche which becomes accessible to man’s consciousness by way of projection” (Jung). 
+            Ultimately, the goal of the performance is to provide an object for the audience to project onto and become aware of their 
+            own archetypes, hence “unlock your unconscious”.
+          </p>
+        </div>
         </Grid>
       </Grid>
     </div>

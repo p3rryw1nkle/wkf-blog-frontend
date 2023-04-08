@@ -83,8 +83,8 @@ export default function Home() {
             Put Together a Performance" to lean on throughout my experience. Secondly, I applied and analyzed what I learned
             in a series of blog posts where I documented the development of the performance narrative via "schema sketches" (which later served
             as the audience's guide to the performance), my vocal ability, and tackling the technicalities of the performance. Finally,
-            I will put all of my experiences together and organize my own performance. You can find my takeway of "The Archetypes
-            and the Collective Unconscious", my how-to guides, as well as my blog posts documenting my journey all on this site.
+            I put all of my experiences together and organized my own performance. You can find my synopsis of "The Archetypes
+            and the Collective Unconscious", my blog posts, as well as my how-to guides documenting my journey all on this site.
           </p>
           <p className={resize ? "largeH2" : "smallH2"}>
             Tune In
