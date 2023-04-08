@@ -80,17 +80,16 @@ export default function Review() {
             reason and will, or else produces a conflict of pathological dimensions” (Jung, 48). In other words, when archetypes are 
             suppressed–when their cognitive processes are denied expression–they create an unresolved compulsion that causes psychic 
             frustration, disorder, and mental illness. They slip out of the individual’s awareness, into the unconscious, where they 
-            must be projected onto the outer world, so that they may be perceived and made conscious again. Jung describes projection 
+            are projected out onto the outer world, so that they may be perceived and made conscious again. Jung describes projection 
             as the “unconscious, automatic process whereby a content that is unconscious to the subject transfers itself to an object, 
             so that it seems to belong to that object” (Jung, 60). This process of projection allows the psyche to observe, and understand 
-            itself through the form of archetypes. That is to say, “archetypes are already psychic processes that are unconscous, they 
-            are the symbolic expressions of the inner, unconscious drama of the psyche which becomes accessible to man’s consciousness 
+            itself through the form of archetypes. That is to say, “(archetypes) are the symbolic expressions of the inner, unconscious drama of the psyche which becomes accessible to man’s consciousness 
             by way of projection–that is, mirrored in the events of nature” (Jung, 6). In other words, the manifestation of archetypes 
             in the form of symbols, characters, etc. is the process by which the unconscious mind comes to know and understand itself. 
             In order to become psychologically whole, “Our task is not, therefore, to deny the archetype, but to dissolve the 
             projections, in order to restore their contents to the individual who has involuntarily lost them by projecting them outside 
             himself” (Jung, 84). Essentially, the dissolution of projections is a byproduct of integrating the archetypes in a conscious 
-            manner, as once they have become apart of the conscious mind, the psyche no longer has a need to project them.
+            manner.
           </p>
           <Grid item container justifyContent="center" xs={12}>
             {/* <img alt="Jung's Model of the Psyche" width="50%" height="100%" src={jungModel}/> */}
@@ -123,7 +122,7 @@ export default function Review() {
             <GetImages name="br_syzygy" size="50%"/>
           </Grid>
           <Grid item container justifyContent="center" xs={8}>
-            <p align="center" className={resize ? "largeP" : "smallP"}>The “syzygy” motif which represents the psychological integration of both masculine and feminine characteristics</p>
+            <p align="center" className={resize ? "largeP" : "smallP"}>The “syzygy” motif which represents the psychological union of both masculine and feminine characteristics</p>
           </Grid>
           <p className={resize ? "largeP" : "smallP"}>
             &emsp;Fundamentally, Jung argued that “counsciousness can only exist through continual recognition of the unconscious” (Jung, 96) 
@@ -136,6 +135,10 @@ export default function Review() {
             translations into another language. The most we can do is to dream the myth onwards and give it a modern dress.” (Jung, 160). 
             Ultimately, it is the continual process of uncovering and interpreting the unconscious that makes life and the path towards 
             individuation meaningful. 
+          </p>
+          <p className={resize ? "largeP" : "smallP"}>
+            SOURCE:
+            Jung, C. G. (1968). The archetypes and the collective unconscious (R. F. C. Hull, Trans.). Princeton University Press. (Original work published 1959)
           </p>
           <Grid item container xs={12} justifyContent="center">
             {/* <img alt="Archetype Interpration" width="50%" height="100%" src={archetypes2}/> */}

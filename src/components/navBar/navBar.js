@@ -65,6 +65,9 @@ export default function NavBar(props) {
                             <li>
                                 <a href="/Blog" className="title">Blog</a>
                             </li>
+                            <li>
+                                <a href="/Synopsis" className="title">Book Synopsis</a>
+                            </li>
                         </ul>
                     </div>
                     <IconButton
@@ -93,8 +96,8 @@ export default function NavBar(props) {
                     <Divider />
                     <List>
                         <div className="linkContainer">
-                            <a href="Review" className="drawerLink">
-                                Book Review
+                            <a href="Synopsis" className="drawerLink">
+                                Book Synopsis
                             </a>
                         </div>    
                         <div className="linkContainer">

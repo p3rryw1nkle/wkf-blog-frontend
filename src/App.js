@@ -22,7 +22,7 @@ function App() {
       case "/Blog":
         Component = Blog
         break
-      case "/Review":
+      case "/Synopsis":
         Component = Review
         break
       case "/Lore":
