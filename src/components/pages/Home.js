@@ -79,7 +79,7 @@ export default function Home() {
           <p className={resize ? "largeP" : "smallP"}>
             The process of fulfilling these objectives/outcomes was organized according to Bloom's Taxonomy, a framework for
             building effective learning experiences. First, I gathered knowledge to understand my undertaking by reading and summarizing "The Archetypes and
-            the Colelctive Unconscious" by Carl Jung while compiling two informative guides, "How to Train Your Voice" amd "How to
+            the Colelctive Unconscious" by Carl Jung while compiling two informative guides, "How to Train Your Voice" and "How to
             Put Together a Performance" to lean on throughout my experience. Secondly, I applied and analyzed what I learned
             in a series of blog posts where I documented the development of the performance narrative via "schema sketches" (which later served
             as the audience's guide to the performance), my vocal ability, and tackling the technicalities of the performance. Finally,
