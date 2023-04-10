@@ -285,8 +285,7 @@ export default function Lore() {
                 <AccordionDetails>
                   <Grid item container justifyContent="center">
                     <h4>
-                      <i>“One does not become enlightened by imagining figures of light, <br/>
-                      but by making the darkness conscious.”</i> - Carl Jung
+                      <i>“Until you make the unconscious conscious, it will direct your life and you will call it fate”</i> - Carl Jung
                     </h4>
                   </Grid>
                   <Grid item container>
@@ -419,7 +418,8 @@ export default function Lore() {
                 <AccordionDetails>
                   <Grid item container justifyContent="center">
                     <h4>
-                      <i>“Until you make the unconscious conscious, it will direct your life and you will call it fate”</i> - Carl Jung
+                      <i>“One does not become enlightened by imagining figures of light, <br/>
+                      but by making the darkness conscious.”</i> - Carl Jung
                     </h4>
                   </Grid>
                   <Grid item container>
