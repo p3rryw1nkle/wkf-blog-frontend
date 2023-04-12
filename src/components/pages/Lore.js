@@ -435,7 +435,7 @@ export default function Lore() {
                         Becoming no one <br/>
                         <br/>
                         Sworn to a war with reality <br/>
-                        And dreams of fortresses on sand <br/>
+                        For dreams of fortresses on sand <br/>
                         Inventing my own heaven <br/>
                         Faking God for as long as I can <br/>
                         <br/>
@@ -692,10 +692,10 @@ export default function Lore() {
                         I've gotta know  <br/>
                         I've gotta know  <br/>
                         <br/>
-                        How deep it goes (infinity)  <br/>
-                        How deep it goes (infinity)  <br/>
-                        How deep it goes (infinity)  <br/>
-                        How deep it goes (infinity) <br/>
+                        infinity  <br/>
+                        infinity  <br/>
+                        infinity  <br/>
+                        infinity <br/>
                       </p>
                     </Grid>
                   </Grid>
