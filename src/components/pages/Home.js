@@ -35,7 +35,7 @@ export default function Home() {
           <p className={resize ? "largeH2" : "smallH2"}>
             Watch the show here:
           </p>
-          <Video vidLink="https://www.youtube.com/watch?v=7pxSmodPfdk&t=607s&ab_channel=perrywinkle"/>
+          <Video vidLink="https://www.youtube.com/watch?v=s5vGW-U6wzw&ab_channel=perrywinkle"/>
           <p className={resize ? "largeP" : "smallP"}>     
             As a part of this learning experience I was required to create a list of several objectives and outcomes. In the
             blog section you will find posts that reflect my journey towards fulfilling these objectives and outcomes, which are as follows:
