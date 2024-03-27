@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid';
 import "./Pages.css"
 import useMatchMedia from '../../tools/matchMedia';
 import paperTexture from "../images/paperTexture.jpg"
-import GetImages from "../../tools/imageHandler";
+// import GetImages from "../../tools/imageHandler";
 import Video from "../video/Video";
 import home_header from "../images/home_header.png";
 import bloomsTaxonomy from "../images/Blooms-Taxonomy.png";

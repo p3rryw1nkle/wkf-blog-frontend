@@ -9,7 +9,7 @@ import archetypes3 from '../images/book_review/archetypes3.png'
 import paperTexture from '../images/paperTexture.jpg'
 import "./Pages.css"
 import useMatchMedia from '../../tools/matchMedia';
-import GetImages from "../../tools/imageHandler";
+// import GetImages from "../../tools/imageHandler";
 
 export default function Review() {
   const resize = useMatchMedia(900);
