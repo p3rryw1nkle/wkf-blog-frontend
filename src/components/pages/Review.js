@@ -1,11 +1,11 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
-// import archetypes1 from '../images/book_review/archetypes1.png'
-// import syzygy from '../images/book_review/br_sygyzy.png'
-// import jungModel from '../images/book_review/mind_map.png'
-// import mandala from '../images/book_review/mandala.png'
-// import archetypes2 from '../images/book_review/archetypes2.png'
-// import archetypes3 from '../images/book_review/archetypes3.png'
+import archetypes1 from '../images/book_review/archetypes1.png'
+import syzygy from '../images/book_review/br_sygyzy.png'
+import jungModel from '../images/book_review/mind_map.png'
+import mandala from '../images/book_review/mandala.png'
+import archetypes2 from '../images/book_review/archetypes2.png'
+import archetypes3 from '../images/book_review/archetypes3.png'
 import paperTexture from '../images/paperTexture.jpg'
 import "./Pages.css"
 import useMatchMedia from '../../tools/matchMedia';
@@ -36,8 +36,8 @@ export default function Review() {
             of the human psyche and its functions.
           </p>
           <Grid item container justifyContent="center" xs={12}>
-            {/* <img alt="archetypes" width="50%" height="100%" src={archetypes1}/> */}
-            <GetImages name="archetypes1"  size="50%"/>
+            <img alt="archetypes" width="50%" height="100%" src={archetypes1}/>
+            {/* <GetImages name="archetypes1"  size="50%"/> */}
           </Grid>
           <Grid item align="center" xs={8}>
             <p className={resize ? "largeP" : "smallP"}>
@@ -63,8 +63,8 @@ export default function Review() {
             preset processes which represent themselves similarly across distinct times, places, and cultures.
           </p>
           <Grid item container justifyContent="center" xs={12}>
-            <GetImages name="mandala" size="50%"/>
-            {/* <img alt="mandala archetype" width="50%" height="100%" src={mandala}/> */}
+            {/* <GetImages name="mandala" size="50%"/> */}
+            <img alt="mandala archetype" width="50%" height="100%" src={mandala}/>
           </Grid>
           <Grid item align="center" xs={8}>
             <p className={resize ? "largeP" : "smallP"}>
@@ -92,8 +92,8 @@ export default function Review() {
             manner.
           </p>
           <Grid item container justifyContent="center" xs={12}>
-            {/* <img alt="Jung's Model of the Psyche" width="50%" height="100%" src={jungModel}/> */}
-            <GetImages name="mind_map" size="50%"/>
+            <img alt="Jung's Model of the Psyche" width="50%" height="100%" src={jungModel}/>
+            {/* <GetImages name="mind_map" size="50%"/> */}
           </Grid>
           <p className={resize ? "largeP" : "smallP"}>Jung's Model of the Psyche</p>
           <p className={resize ? "largeP" : "smallP"}>     
@@ -118,8 +118,8 @@ export default function Review() {
             within the unconscious.
           </p> 
           <Grid item container justifyContent="center" xs={12}>
-            {/* <img alt="the Syzygy archetype" width="50%" height="100%" src={syzygy}/> */}
-            <GetImages name="br_syzygy" size="50%"/>
+            <img alt="the Syzygy archetype" width="50%" height="100%" src={syzygy}/>
+            {/* <GetImages name="br_syzygy" size="50%"/> */}
           </Grid>
           <Grid item container justifyContent="center" xs={8}>
             <p align="center" className={resize ? "largeP" : "smallP"}>The “syzygy” motif which represents the psychological union of both masculine and feminine characteristics</p>
@@ -141,12 +141,12 @@ export default function Review() {
             Jung, C. G. (1968). The archetypes and the collective unconscious (R. F. C. Hull, Trans.). Princeton University Press. (Original work published 1959)
           </p>
           <Grid item container xs={12} justifyContent="center">
-            {/* <img alt="Archetype Interpration" width="50%" height="100%" src={archetypes2}/> */}
-            <GetImages name="archetypes2" size="50%"/>
+            <img alt="Archetype Interpration" width="50%" height="100%" src={archetypes2}/>
+            {/* <GetImages name="archetypes2" size="50%"/> */}
           </Grid>
           <Grid item container xs={12} margin={5} justifyContent="center">
-            {/* <img alt="Archetype Interpration" width="50%" height="100%" src={archetypes3}/> */}
-            <GetImages name="archetypes3" size="50%"/>
+            <img alt="Archetype Interpration" width="50%" height="100%" src={archetypes3}/>
+            {/* <GetImages name="archetypes3" size="50%"/> */}
           </Grid>
           <Grid item container justifyContent="center" xs={8}>
             <p align="center" className={resize ? "largeP" : "smallP"}>

@@ -4,9 +4,11 @@ import "./Pages.css"
 import useMatchMedia from '../../tools/matchMedia';
 import paperTexture from "../images/paperTexture.jpg"
 import GetImages from "../../tools/imageHandler";
-import Video from "../video/Video"
-// import bloomsTaxonomy from "../images/Blooms-Taxonomy.png";
-// import instagram from "../images/icons/instagram.png"
+import Video from "../video/Video";
+import home_header from "../images/home_header.png";
+import bloomsTaxonomy from "../images/Blooms-Taxonomy.png";
+import instagram from "../images/icons/instagram.png"
+import spotify from "../images/icons/spotify.png"
 
 export default function Home() {
   const resize = useMatchMedia(900);
@@ -16,8 +18,8 @@ export default function Home() {
       <Grid container justifyContent="center" marginTop={resize ? 30 : 5} marginBottom={resize ? 30 : 5} display="flex">
         <Grid container item justifyContent="center" xs={12}>
           <Grid container item justifyContent="center" xs={resize ? 8 : 10}>
-            <GetImages name="home_header" size="100%"/>
-            {/* <img alt="home_header" width="80%" height="80%" src={<GetImages names={["home_header"]}/>}/> */}
+            {/* <GetImages name="home_header" size="100%"/> */}
+            <img alt="home_header" width="80%" height="100%" src={home_header}/>
           </Grid>
         </Grid>
         <Grid container item justifyContent="center" xs={10} style={{ backgroundImage: `url(${paperTexture})` }}>
@@ -73,8 +75,8 @@ export default function Home() {
             </ol>
           </Grid>
           <Grid item container justifyContent="center" xs={resize ? 8 : 12}>
-            <GetImages name="blooms_taxonomy"  size="100%"/>
-            {/* <img alt="blooms-taxonomy" width="100%" height="100%" src={bloomsTaxonomy}/> */}
+            {/* <GetImages name="blooms_taxonomy"  size="100%"/> */}
+            <img alt="blooms-taxonomy" width="100%" height="100%" src={bloomsTaxonomy}/>
           </Grid>
           <p className={resize ? "largeP" : "smallP"}>
             The process of fulfilling these objectives/outcomes was organized according to Bloom's Taxonomy, a framework for
@@ -92,13 +94,14 @@ export default function Home() {
           <Grid container item justifyContent="center" xs={12} spacing={5}>
             <Grid item>
               <a href="https://www.instagram.com/itsperrywinkle/" target="_blank" rel="noreferrer noopener">
-                <GetImages name="instagram"  size={resize ? "150px" : "75px"}/>
-                {/* <img alt="instagram" width={resize ? "150px" : "75px"} height={resize ? "150px" : "75px"} src={instagram}/> */}
+                {/* <GetImages name="instagram"  size={resize ? "150px" : "75px"}/> */}
+                <img alt="instagram" width={resize ? "150px" : "75px"} height={resize ? "150px" : "75px"} src={instagram}/>
               </a>
             </Grid>
             <Grid item>
               <a href="https://open.spotify.com/artist/5AYfjiSvcjUfbHPLiGTfrI" target="_blank" rel="noreferrer noopener">
-                <GetImages name="spotify_logo"  size={resize ? "150px" : "75px"}/>
+                {/* <GetImages name="spotify_logo"  size={resize ? "150px" : "75px"}/> */}
+                <img alt="spotify" width={resize ? "150px" : "75px"} height={resize ? "150px" : "75px"} src={spotify}/>
               </a>
             </Grid>
           </Grid>

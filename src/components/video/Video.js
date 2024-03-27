@@ -3,6 +3,7 @@ import React from 'react'
 import "./Video.css"
 import useMatchMedia from '../../tools/matchMedia';
 
+// returns a ReactPlayer element that plays the video specified by the vidLink prop
 const Video = ({vidLink}) => {
   const resize = useMatchMedia(900);
 

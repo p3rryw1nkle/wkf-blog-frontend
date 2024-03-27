@@ -1,17 +1,17 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import "./Pages.css"
-// import finalDraft from "../images/finalDraft.png"
-// import wizard from "../images/archetypes/wizard.png"
-// import controller from "../images/archetypes/controller.png"
-// import king from "../images/archetypes/King.png"
-// import warrior from "../images/archetypes/warrior.png"
-// import jester from "../images/archetypes/jester.png"
-// import acedia from "../images/archetypes/acedia.png"
-// import death from "../images/archetypes/death.png"
-// import syzygy from "../images/archetypes/syzygy.png"
-// import hermit from "../images/archetypes/hermit.png"
-// import priest from "../images/archetypes/priest.png"
+import finalDraft from "../images/finalDraft.png"
+import wizard from "../images/archetypes/wizard.png"
+import controller from "../images/archetypes/controller.png"
+import king from "../images/archetypes/King.png"
+import warrior from "../images/archetypes/warrior.png"
+import jester from "../images/archetypes/jester.png"
+import acedia from "../images/archetypes/acedia.png"
+import death from "../images/archetypes/death.png"
+import syzygy from "../images/archetypes/syzygy.png"
+import hermit from "../images/archetypes/hermit.png"
+import priest from "../images/archetypes/priest.png"
 import paperTexture from "../images/paperTexture.jpg"
 import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
 import useMatchMedia from '../../tools/matchMedia';
@@ -114,8 +114,8 @@ export default function Lore() {
                       </p>
                     </Grid>
                     <Grid item container xs={12} lg={4} justifyContent="center" alignItems="center">
-                      {/* <img alt="schema1" width="80%" height="80%" src={wizard}/> */}
-                      <GetImages name="wizard"  size="80%"/>
+                      <img alt="schema1" width="80%" height="50%" src={wizard}/>
+                      {/* <GetImages name="wizard"  size="80%"/> */}
                     </Grid>
                   </Grid>
                 </AccordionDetails>
@@ -167,8 +167,8 @@ export default function Lore() {
                 <AccordionDetails>
                   <Grid item container>
                     <Grid item container xs={12} lg={6} justifyContent="center" alignItems="center">
-                      {/* <img alt="alone time" width="80%" height="80%" src={hermit}/> */}
-                      <GetImages name="hermit"  size="80%"/>
+                      <img alt="alone time" width="80%" height="70%" src={hermit}/>
+                      {/* <GetImages name="hermit"  size="80%"/> */}
                     </Grid>
                     <Grid item container xs={12} lg={6}>
                       <p>
@@ -221,8 +221,8 @@ export default function Lore() {
                   </Grid>
                   <Grid item container>
                   <Grid item container xs={12} lg={6} justifyContent="center" alignItems="center">
-                    {/* <img alt="schema1" width="80%" height="80%" src={controller}/>        */}
-                    <GetImages name="controller"  size="80%"/>            
+                    <img alt="schema1" width="80%" height="50%" src={controller}/>       
+                    {/* <GetImages name="controller"  size="80%"/>             */}
                   </Grid>
                   <Grid item container xs={12} lg={6}>
                     <p>
@@ -319,8 +319,8 @@ export default function Lore() {
                       </p>
                     </Grid>
                     <Grid item container xs={12} lg={4} justifyContent="center" alignItems="center">
-                      {/* <img alt="new moon" width="80%" height="80%" src={king}/> */}
-                      <GetImages name="king"  size="80%"/>
+                      <img alt="new moon" width="100%" height="50%" src={king}/>
+                      {/* <GetImages name="king"  size="80%"/> */}
                     </Grid>
                     <Grid item container marginLeft="10px" marginRight="10px">
                       <p>
@@ -365,8 +365,8 @@ export default function Lore() {
                   </Grid>
                   <Grid item container>
                     <Grid item container xs={12} lg={6} justifyContent="center" alignItems="center">
-                      {/* <img alt="save yourself" width="80%" height="80%" src={priest}/> */}
-                      <GetImages name="priest"  size="80%"/>
+                      <img alt="save yourself" width="80%" height="50%" src={priest}/>
+                      {/* <GetImages name="priest"  size="80%"/> */}
                     </Grid>
                     <Grid item container xs={12} lg={6}>
                       <p>
@@ -466,8 +466,8 @@ export default function Lore() {
                       </p>
                     </Grid>
                     <Grid item container xs={12} lg={4} justifyContent="center" alignItems="center">
-                      {/* <img alt="becoming no one" width="80%" height="60%" src={warrior}/> */}
-                      <GetImages name="warrior" size="80%"/>
+                      <img alt="becoming no one" width="100%" height="40%" src={warrior}/>
+                      {/* <GetImages name="warrior" size="80%"/> */}
                     </Grid>
                   </Grid>
                 </AccordionDetails>
@@ -530,8 +530,8 @@ export default function Lore() {
                   </Grid>
                   <Grid item container>
                     <Grid item container xs={12} lg={6} justifyContent="center" alignItems="center">
-                      {/* <img alt="fool's song" width="80%" height="80%" src={jester}/>  */}
-                      <GetImages name="jester"  size="80%"/>    
+                      <img alt="fool's song" width="80%" height="50%" src={jester}/> 
+                      {/* <GetImages name="jester"  size="80%"/>     */}
                     </Grid>
                     <Grid item container xs={12} lg={6}>
                       <p>
@@ -621,8 +621,8 @@ export default function Lore() {
                       </p>
                     </Grid>
                     <Grid item container xs={12} lg={4}>
-                      {/* <img alt="acedia" width="80%" height="80%" src={acedia}/>      */}
-                      <GetImages name="acedia"  size="80%"/>
+                      <img alt="acedia" width="80%" height="80%" src={acedia}/>     
+                      {/* <GetImages name="acedia"  size="80%"/> */}
                     </Grid>
                   </Grid>
                 </AccordionDetails>
@@ -654,8 +654,8 @@ export default function Lore() {
                   </Grid>
                   <Grid item container>
                     <Grid item container xs={12} lg={6} justifyContent="center" alignItems="center">
-                      {/* <img alt="WTF?" width="80%" height="80%" src={death}/> */}
-                      <GetImages name="death" size="80%"/>
+                      <img alt="WTF?" width="80%" height="40%" src={death}/>
+                      {/* <GetImages name="death" size="80%"/> */}
                     </Grid>
                     <Grid item container xs={12} lg={6}>
                       <p>
@@ -823,8 +823,8 @@ export default function Lore() {
                     </h4>
                   </Grid>
                   <Grid item container justifyContent="center">
-                    <GetImages name="syzygy"  size="80%"/>
-                    {/* <img alt="syzygy" width="80%" height="80%" src={syzygy}/> */}
+                    {/* <GetImages name="syzygy"  size="80%"/> */}
+                    <img alt="syzygy" width="80%" height="80%" src={syzygy}/>
                   </Grid>
                 </AccordionDetails>
               </Accordion>
@@ -832,8 +832,8 @@ export default function Lore() {
           </ol>
         </Grid>
         <Grid item container xs={8} justifyContent="center" alignItems="center">
-          <GetImages name="performance_map" size="100%"/>
-          {/* <img alt="the map" width={resize ? "800px" : "300px"} height="100%" src={finalDraft}/> */}
+          {/* <GetImages name="performance_map" size="100%"/> */}
+          <img alt="the map" width={resize ? "800px" : "300px"} height="100%" src={finalDraft}/>
         </Grid>
         <p className={resize ? "largeP" : "smallP"}>
           The black circle/triangle symbol in the middle represents the psyche, with dark and light representing unconsciousness and consciousness respectively. 
