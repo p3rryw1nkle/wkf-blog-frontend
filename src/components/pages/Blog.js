@@ -21,7 +21,7 @@ import Select, {SelectChangeEvent} from '@mui/material/Select';
 import "./Pages.css"
 import useMatchMedia from '../../tools/matchMedia';
 
-
+// returns a preset of blog posts depending on the 'sortBy' prop.
 const getFilteredPosts = (sortBy, posts) => {
 
   let filteredPosts = posts;

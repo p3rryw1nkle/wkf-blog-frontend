@@ -1,6 +1,7 @@
 import AudioPlayer from 'react-audio-player';
 import React from 'react'
 
+// returns an AudioPlayer element that plays the audio file specified by the audioFile prop
 const Audio = ({audioFile}) => {
   return (
     <AudioPlayer

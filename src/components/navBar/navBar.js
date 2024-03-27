@@ -12,8 +12,6 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import useMatchMedia from '../../tools/matchMedia';
 import { makeStyles } from '@mui/styles';
 
-// const drawerWidth = 240;
-
 const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
