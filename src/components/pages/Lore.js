@@ -15,7 +15,7 @@ import priest from "../images/archetypes/priest.png"
 import paperTexture from "../images/paperTexture.jpg"
 import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
 import useMatchMedia from '../../tools/matchMedia';
-import GetImages from "../../tools/imageHandler";
+// import GetImages from "../../tools/imageHandler";
 
 export default function Lore() {
   const resize = useMatchMedia(900);
