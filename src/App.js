@@ -1,3 +1,5 @@
+// This script is the main script for the website. It is responsible for rendering the NavBar and the main content of the website.
+
 import "./App.css"
 import Grid from '@mui/material/Grid';
 import NavBar from "./components/navBar/navBar"
@@ -12,6 +14,7 @@ import background from "./components/images/background.png";
 function App() {
   let Component
 
+  // Switch statement to determine which page to render based on the URL path
   switch(window.location.pathname){
       case "/":
         Component = Home

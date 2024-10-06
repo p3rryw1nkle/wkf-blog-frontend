@@ -1,3 +1,5 @@
+// This component is used to retrieve images from the backend. It is used in the Image component.
+
 import { useEffect, useState } from "react";
 import axios from "axios";
 import loading_symbol from "../components/images/loading_symbol.gif"

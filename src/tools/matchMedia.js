@@ -1,3 +1,5 @@
+// This is a custom hook that uses the matchMedia API to determine if the screen width is greater than a specified value.
+
 import { useState, useEffect, useRef } from 'react';
 
 // the cut-off value for what screen width will trigger a component resize is passed in as a prop.

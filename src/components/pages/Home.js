@@ -1,3 +1,5 @@
+// Home page for the website
+
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import "./Pages.css"
@@ -12,7 +14,7 @@ import spotify from "../images/icons/spotify.png"
 
 export default function Home() {
   const resize = useMatchMedia(900);
-  
+
   return (
     <div className="humanistic-font">
       <Grid container justifyContent="center" marginTop={resize ? 30 : 5} marginBottom={resize ? 30 : 5} display="flex">

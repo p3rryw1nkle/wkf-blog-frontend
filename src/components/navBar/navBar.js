@@ -29,9 +29,11 @@ const useStyles = makeStyles({
 })
 
 export default function NavBar(props) {
-
+    // theme hook
     const theme = useTheme();
     const [open, setOpen] = React.useState(false);
+
+    // custom hook to determine screen size
     const resize = useMatchMedia(620);
     const classes = useStyles();
 

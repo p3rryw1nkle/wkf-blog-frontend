@@ -1,14 +1,12 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import "./Pages.css"
-// import useMatchMedia from '../../tools/matchMedia';
 
 import voiceGuide from "../pdfs/train_your_voice.pdf"
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 
 export default function VocalGuide() {
-  // const resize = useMatchMedia(900);
 
   return (
     <div className="humanistic-font">

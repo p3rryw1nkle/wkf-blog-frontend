@@ -1,14 +1,7 @@
+// Performance Guide page
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import "./Pages.css"
-// import useMatchMedia from '../../tools/matchMedia';
-
-// MATERIAL UI ACCORDIAN STUFF
-// import Accordion from '@mui/material/Accordion';
-// import AccordionSummary from '@mui/material/AccordionSummary';
-// import AccordionDetails from '@mui/material/AccordionDetails';
-// import Typography from '@mui/material/Typography';
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import performanceGuide from "../pdfs/performance_guide.pdf"
 import { Worker, Viewer } from '@react-pdf-viewer/core';
@@ -16,7 +9,6 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import "./Pages.css"
 
 export default function PerformanceGuide() {
-  // const resize = useMatchMedia(900);
   
   return (
     <div className="humanistic-font">
