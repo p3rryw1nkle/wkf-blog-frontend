@@ -1,10 +1,10 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import './blogPost.css'
-// import schema3 from '../images/schema3.png'
+import schema3 from '../images/schema3.png'
 import {Accordion, AccordionSummary, AccordionDetails} from "@mui/material"
 import useMatchMedia from '../../tools/matchMedia';
-import GetImages from "../../tools/imageHandler";
+// import GetImages from "../../tools/imageHandler";
 
 const SchemaSketch3 = () => {
   const resize = useMatchMedia(900);
@@ -28,8 +28,8 @@ const SchemaSketch3 = () => {
           <AccordionDetails>
             <Grid container justifyContent="center">
               <Grid container xs={6}>
-                {/* <img alt="schema3" width="100%" height="100%" src={schema3}/> */}
-                <GetImages name="schema3" size="100%"/>
+                <img alt="schema3" width="100%" height="100%" src={schema3}/>
+                {/* <GetImages name="schema3" size="100%"/> */}
               </Grid>
             </Grid>
             <p className={resize ? "largeP" : "smallP"}>

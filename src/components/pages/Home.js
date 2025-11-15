@@ -27,14 +27,15 @@ export default function Home() {
         <Grid container item justifyContent="center" xs={10} style={{ backgroundImage: `url(${paperTexture})` }}>
           <p className={resize ? "largeH1" : "smallH1"}>Home</p>
           <p className={resize ? "largeP" : "smallP"}>
-            This webpage is dedicated to an audiovisual performance called <i>the Wizard, the King, & the Fool</i>.
+            This webpage is dedicated to an audiovisual performance called <i>the Wizard, the King, & the Fool</i> in which I 
+            wrote and produced the music, built the stage, designed the costumes, created the visuals, and organized every aspect of the show.
             It was initiated as a practicum project for the <a href="https://mcbride.mines.edu/">McBride Honors program</a>, where I was tasked with designing
             and conducting my own learning experience. In this learning experience I decided to combine my passions for 
             art, music, psychology, and philosophy and put together my first solo music performance with almost entirely
             original material. The Wizard, the King, & the Fool is a medieval theatre style psychological exploration, which inspired
-            by the theories of psychologist Carl Jung, uses music and AI generated art amongst other mediums to channel, 
+            by the theories of psychologist Carl Jung, uses music and AI generated visuals amongst other mediums to channel, 
             observe, and integrate several distinct 'archetypes' of the 'collective unconscious'. For a more in-depth explanation 
-            of the performance, visit the 'Lore' page.
+            of the performance, visit the <a href="/Lore">'Lore'</a> page.
           </p>
           <p className={resize ? "largeH2" : "smallH2"}>
             Watch the show here:
