@@ -37,7 +37,7 @@ export default function Lore() {
           </p>
           <p className={resize ? "largeP" : "smallP"}>
             Each archetype is embodied through several songs which explore different aspects of their respective archetype.
-            Furthermore, the music is accompanied by <a href="https://docs.google.com/document/d/1f6hIF1NbuU5EjULjg2JmdMxr0-OPKv2UE-SWwys4DMs/edit">visuals</a> consisting of AI-generated animations and video compilations that mimick
+            Furthermore, the music is accompanied by visuals consisting of AI-generated animations and video compilations that mimick
             dreaming and a state of "active imagination", whose symbolism Jung believed was a powerful tool in understanding the archetypes and the unconscious mind. 
             Below is an explanation of the 'map' of the performance used in the promotional material
             which may be used to better understand the stucture of the show. The lyrics for each song can be found at the end of this page.
